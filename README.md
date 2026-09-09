@@ -27,16 +27,27 @@ tool developed for educational and authorized laboratory environments.
 
 ## Project Structure
 
+```text
 NetworkSentry/
-   src/
-     main.py
-     config.py
-     capture.py
-     analyzer.py
-     reporter.py
-   captures/
-   reports/
-   requirements.txt
+│
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── capture.py
+│   ├── analyzer.py
+│   └── reporter.py
+│
+├── captures/
+│   └── Packet capture files
+│
+├── reports/
+│   └── Generated reports
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
 ## Installation
 
